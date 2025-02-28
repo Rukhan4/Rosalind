@@ -26,7 +26,7 @@ The repository is organized into folders, each corresponding to a different prob
 2. Navigate to the folder of the problem you want to solve:
 
    ```sh
-   cd DNA
+   cd problem_name
    ```
 
 3. Run the solution script:

@@ -13,3 +13,32 @@ The repository is organized into folders, each corresponding to a different prob
 - `problem_description.md`: A markdown file with the problem description and biological background.
 - `solution.py`: A Python script containing my solution to the problem.
 - `data/`: A folder containing any input data files required for the problem.
+
+## How to Use
+
+1. Clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/rosalind-bioinformatics-challenges.git
+   cd rosalind-bioinformatics-challenges
+   ```
+
+2. Navigate to the folder of the problem you want to solve:
+
+   ```sh
+   cd DNA
+   ```
+
+3. Run the solution script:
+   ```sh
+   python solution.py
+   ```
+
+## Dependencies
+
+- Python 3.x
+
+### Acknowledgments
+
+Thanks to Rosalind for providing these excellent bioinformatics challenges.
+Special thanks to the bioinformatics community for their support and resources.

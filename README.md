@@ -19,8 +19,8 @@ The repository is organized into folders, each corresponding to a different prob
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/rosalind-bioinformatics-challenges.git
-   cd rosalind-bioinformatics-challenges
+   git clone https://github.com/rukhan4/Rosalind.git
+   cd Rosalind
    ```
 
 2. Navigate to the folder of the problem you want to solve:

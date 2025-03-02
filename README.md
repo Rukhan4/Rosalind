@@ -16,29 +16,39 @@ The repository is organized into folders, each corresponding to a different prob
 
 ## How to Use
 
-1. Clone the repository:
+### Clone the repository:
 
-   ```sh
-   git clone https://github.com/rukhan4/Rosalind.git
-   cd Rosalind
-   ```
+```sh
+git clone https://github.com/rukhan4/Rosalind.git
+cd Rosalind
+```
 
-2. Navigate to the folder of the problem you want to solve:
+### Run solution with python on command line
 
-   ```sh
-   cd problem_name
-   ```
+#### Navigate to folder of the problem you want to solve:
 
-3. Run the solution script:
-   ```sh
-   python solution.py
-   ```
+```sh
+cd problem_name
+```
+
+#### Run the solution script:
+
+```sh
+python3 <input_file> <output_file>
+```
+
+### Run solution with bash script
+
+```
+bash "problem name"
 
 ## Dependencies
 
 - Python 3.x
+- sys (built in)
 
 ### Acknowledgments
 
 Thanks to Rosalind for providing these excellent bioinformatics challenges.
 Special thanks to the bioinformatics community for their support and resources.
+```

@@ -41,6 +41,7 @@ python3 <input_file> <output_file>
 
 ```
 bash "problem name"
+```
 
 ## Dependencies
 
@@ -51,4 +52,7 @@ bash "problem name"
 
 Thanks to Rosalind for providing these excellent bioinformatics challenges.
 Special thanks to the bioinformatics community for their support and resources.
+
+```
+
 ```

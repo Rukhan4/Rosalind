@@ -23,6 +23,12 @@ git clone https://github.com/rukhan4/Rosalind.git
 cd Rosalind
 ```
 
+### Run solution with bash script
+
+```
+bash "problem name"
+```
+
 ### Run solution with python on command line
 
 #### Navigate to folder of the problem you want to solve:
@@ -35,12 +41,6 @@ cd problem_name
 
 ```sh
 python3 <input_file> <output_file>
-```
-
-### Run solution with bash script
-
-```
-bash "problem name"
 ```
 
 ## Dependencies

@@ -25,7 +25,7 @@ cd Rosalind
 
 ### Run solution with bash script
 
-```
+```sh
 bash run_solution.sh "Problem Folder Name" <input file>
 ```
 

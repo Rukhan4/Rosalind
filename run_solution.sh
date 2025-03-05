@@ -1,12 +1,13 @@
 #!/bin/bash
 
 # Check if an argument was provided
-if [ -z "$1" ]; then
-    echo "Usage: $0 <problem_name>"
+if [ "$#" -ne 2 ]; then
+    echo "Usage: $0 <problem_name> <input_file>"
     exit 1
 fi
 
 PROBLEM_DIR="$1"
+INPUT_FILE="$2"
 DATA_DIR="$PROBLEM_DIR/data"
 SOLUTION_SCRIPT="$PROBLEM_DIR/solution.py"
 
@@ -28,12 +29,9 @@ if [ ! -d "$DATA_DIR" ]; then
     exit 1
 fi
 
-# Find the first input file inside the data directory (excluding output.txt)
-INPUT_FILE=$(find "$DATA_DIR" -type f ! -name "output.txt" | head -n 1)
-
-# Check if an input file was found
+# Check if an input file was provided
 if [ -z "$INPUT_FILE" ]; then
-    echo "Error: No input file found in '$DATA_DIR'."
+    echo "Error: No input file provided."
     exit 1
 fi
 

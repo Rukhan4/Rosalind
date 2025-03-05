@@ -26,7 +26,7 @@ cd Rosalind
 ### Run solution with bash script
 
 ```
-bash run_solution.sh "Problem Folder Name"
+bash run_solution.sh "Problem Folder Name" <input file>
 ```
 
 ### Run solution with python on command line

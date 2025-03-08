@@ -30,3 +30,7 @@ are heterozygous, and n
 are homozygous recessive.
 
 Return: The probability that two randomly selected mating organisms will produce an individual possessing a dominant allele (and thus displaying the dominant phenotype). Assume that any two organisms can mate.
+
+## Tools
+
+https://www.omnicalculator.com/biology/punnett-square

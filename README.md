@@ -52,7 +52,3 @@ python3 <input_file> <output_file>
 
 Thanks to Rosalind for providing these excellent bioinformatics challenges.
 Special thanks to the bioinformatics community for their support and resources.
-
-```
-
-```

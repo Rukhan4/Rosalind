@@ -1,3 +1,5 @@
+import sys
+
 def mendel(k, m, n):
     # Let AA = homozygous dominant
     # Let Aa = heterozygous
@@ -12,3 +14,26 @@ def mendel(k, m, n):
 
     #print(AA_AA, AA_Aa, AA_aa, Aa_Aa, Aa_aa)
     return AA_AA + AA_Aa + AA_aa + Aa_Aa + Aa_aa
+
+if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print("Usage: python solution.py <input_file> <output_file>")
+        sys.exit(1)
+
+    input_file = sys.argv[1]  # Get input file from command-line argument
+    output_file = sys.argv[2]  # Get output file from command-line argument
+
+    try:
+        with open(input_file, 'r') as input_data:
+            k, m, n = map(int, input_data.read().strip().split())
+        
+        result = mendel(k, m, n)
+
+        with open(output_file, 'w') as output_data:
+            output_data.write(str(result))
+
+        print(result)  # Print to console for immediate feedback
+    except FileNotFoundError:
+        print(f"Error: File '{input_file}' not found.")
+        sys.exit(1)
+    
